@@ -1,0 +1,99 @@
+{
+  "campaignId": "mystery_carnival",
+  "blocks": [
+    {
+      "id": "carnival-hero",
+      "type": "BANNER_HERO",
+      "data": {
+        "title": "Mystery Gift Carnival 🎁",
+        "subtitle": "Tap to reveal your surprise coupon!",
+        "imageUrl": "https://images.unsplash.com/photo-1515488042361-ee00e3ddd4e4?w=800&q=80",
+        "badge": "🎉 CARNIVAL",
+        "ctaText": "Claim Mystery Gift",
+        "action": {
+          "type": "APPLY_MYSTERY_GIFT_COUPON",
+          "payload": {
+            "couponCode": "KIDDO-MYSTERY-2026",
+            "discountPercent": 25
+          }
+        }
+      }
+    },
+    {
+      "id": "carnival-grid",
+      "type": "PRODUCT_GRID_2X2",
+      "data": {
+        "title": "Mystery Gift Box",
+        "subtitle": "Curated surprises for kids",
+        "products": [
+          {
+            "id": "prod-021",
+            "name": "Lego Classic Creative Box",
+            "price": 1499,
+            "originalPrice": 1999,
+            "imageUrl": "https://images.unsplash.com/photo-1587654780291-39c9404d746b?w=400&q=80",
+            "tag": "Surprise",
+            "unit": "484 pcs"
+          },
+          {
+            "id": "prod-022",
+            "name": "Barbie Fashionista Doll",
+            "price": 799,
+            "originalPrice": 999,
+            "imageUrl": "https://images.unsplash.com/photo-1596461404960-3cedaace484a?w=400&q=80",
+            "unit": "1 doll"
+          },
+          {
+            "id": "prod-024",
+            "name": "Rubik's Cube 3x3",
+            "price": 299,
+            "originalPrice": 399,
+            "imageUrl": "https://images.unsplash.com/photo-1577082163292-2f0e2281e3cd?w=400&q=80",
+            "unit": "Classic"
+          },
+          {
+            "id": "prod-carnival-001",
+            "name": "Mystery Toy Bundle",
+            "price": 599,
+            "originalPrice": 999,
+            "imageUrl": "https://images.unsplash.com/photo-1558060370-d644479cb6f7?w=400&q=80",
+            "tag": "Mystery",
+            "unit": "3-5 items"
+          }
+        ]
+      }
+    },
+    {
+      "id": "carnival-snacks",
+      "type": "DYNAMIC_COLLECTION",
+      "data": {
+        "title": "Carnival Treats",
+        "subtitle": "Sweet & savory party picks",
+        "products": [
+          {
+            "id": "prod-005",
+            "name": "Kurkure Masala Munch",
+            "price": 20,
+            "imageUrl": "https://images.unsplash.com/photo-1613919113640-25732cd5da33?w=400&q=80",
+            "unit": "90g"
+          },
+          {
+            "id": "prod-026",
+            "name": "Cadbury Dairy Milk Silk",
+            "price": 85,
+            "imageUrl": "https://images.unsplash.com/photo-1549007953-2f2c4b2c4b4b?w=400&q=80",
+            "unit": "60g"
+          },
+          {
+            "id": "prod-009",
+            "name": "Haldiram Soan Papdi",
+            "price": 85,
+            "originalPrice": 99,
+            "imageUrl": "https://images.unsplash.com/photo-1606312619070-d48d4ecc0207?w=400&q=80",
+            "unit": "500g box"
+          }
+        ]
+      }
+    }
+  ]
+}

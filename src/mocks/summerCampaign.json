@@ -1,0 +1,98 @@
+{
+  "campaignId": "summer_playhouse",
+  "blocks": [
+    {
+      "id": "summer-hero",
+      "type": "BANNER_HERO",
+      "data": {
+        "title": "Summer Playhouse 🌊",
+        "subtitle": "Beat the heat with fun outdoor activities",
+        "imageUrl": "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&q=80",
+        "badge": "☀️ SUMMER FUN",
+        "ctaText": "Explore",
+        "action": {
+          "type": "DEEP_LINK",
+          "payload": { "url": "kiddo://campaign/summer-playhouse" }
+        }
+      }
+    },
+    {
+      "id": "summer-zoo",
+      "type": "DYNAMIC_COLLECTION",
+      "data": {
+        "title": "Petting Zoo Tickets",
+        "subtitle": "Summer special — family day out",
+        "products": [
+          {
+            "id": "prod-zoo-001",
+            "name": "City Petting Zoo — Child Ticket",
+            "price": 299,
+            "originalPrice": 399,
+            "imageUrl": "https://images.unsplash.com/photo-1548767797-d9c084f59a60?w=400&q=80",
+            "tag": "Summer",
+            "unit": "1 entry"
+          },
+          {
+            "id": "prod-zoo-002",
+            "name": "Farm Friends Experience",
+            "price": 499,
+            "originalPrice": 649,
+            "imageUrl": "https://images.unsplash.com/photo-1516467508483-a7212febe31a?w=400&q=80",
+            "tag": "Family",
+            "unit": "2 adults + 1 child"
+          },
+          {
+            "id": "prod-zoo-003",
+            "name": "Pony Ride Add-on",
+            "price": 199,
+            "imageUrl": "https://images.unsplash.com/photo-1553284965-83fd3e82fa5f?w=400&q=80",
+            "unit": "15 min ride"
+          },
+          {
+            "id": "prod-zoo-004",
+            "name": "Animal Feed Kit",
+            "price": 149,
+            "originalPrice": 199,
+            "imageUrl": "https://images.unsplash.com/photo-1450778862545-aa899e32ee9f?w=400&q=80",
+            "unit": "Feed bag"
+          }
+        ]
+      }
+    },
+    {
+      "id": "summer-toys",
+      "type": "DYNAMIC_COLLECTION",
+      "data": {
+        "title": "Outdoor Play",
+        "subtitle": "Splash pools, frisbees & more",
+        "products": [
+          {
+            "id": "prod-020",
+            "name": "Hot Wheels 5-Car Pack",
+            "price": 499,
+            "originalPrice": 649,
+            "imageUrl": "https://images.unsplash.com/photo-1558060370-d644479cb6f7?w=400&q=80",
+            "unit": "5 cars"
+          },
+          {
+            "id": "prod-023",
+            "name": "Nerf Elite Disruptor",
+            "price": 1299,
+            "originalPrice": 1599,
+            "imageUrl": "https://images.unsplash.com/photo-1515488042361-ee00e3ddd4e4?w=400&q=80",
+            "unit": "6 darts"
+          },
+          {
+            "id": "prod-summer-001",
+            "name": "Intex Mini Splash Pool",
+            "price": 899,
+            "originalPrice": 1199,
+            "imageUrl": "https://images.unsplash.com/photo-1564760059215-8762f2a2c558?w=400&q=80",
+            "tag": "Splash",
+            "unit": "122cm"
+          }
+        ]
+      }
+    }
+  ]
+}

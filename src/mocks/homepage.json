@@ -1,0 +1,376 @@
+{
+  "version": "1.0.0",
+  "theme": {
+    "primary": "#FF9933",
+    "background": "#FFF5E6",
+    "secondary": "#4A90D9",
+    "accent": "#FF6B6B"
+  },
+  "campaignId": "back_to_school",
+  "metadata": {
+    "lastUpdated": "2026-06-25T10:00:00Z",
+    "region": "IN"
+  },
+  "blocks": [
+    {
+      "id": "hero-main",
+      "type": "BANNER_HERO",
+      "data": {
+        "title": "Kids Essentials in 10 Mins",
+        "subtitle": "Snacks, toys, school supplies & more delivered fast",
+        "imageUrl": "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&q=80",
+        "badge": "⚡ 10 MIN DELIVERY",
+        "ctaText": "Shop Now",
+        "action": {
+          "type": "DEEP_LINK",
+          "payload": { "url": "kiddo://collections/popular", "title": "Popular Products" }
+        }
+      }
+    },
+    {
+      "id": "hero-school",
+      "type": "BANNER_HERO",
+      "data": {
+        "title": "Back To School Sale",
+        "subtitle": "Up to 40% off on lunchboxes, bags & stationery",
+        "imageUrl": "https://images.unsplash.com/photo-1588072432836-e10032779850?w=800&q=80",
+        "badge": "🎒 SCHOOL READY",
+        "ctaText": "Explore",
+        "action": {
+          "type": "DEEP_LINK",
+          "payload": { "url": "kiddo://campaign/back-to-school", "title": "Back To School" }
+        }
+      }
+    },
+    {
+      "id": "grid-popular",
+      "type": "PRODUCT_GRID_2X2",
+      "data": {
+        "title": "Popular Products",
+        "subtitle": "Most ordered by parents this week",
+        "seeAllAction": {
+          "type": "DEEP_LINK",
+          "payload": { "url": "kiddo://collections/popular" }
+        },
+        "products": [
+          {
+            "id": "prod-001",
+            "name": "Britannia Good Day Cookies",
+            "price": 45,
+            "originalPrice": 55,
+            "imageUrl": "https://images.unsplash.com/photo-1558961363-fa8aae64db84?w=400&q=80",
+            "rating": 4.5,
+            "tag": "Bestseller",
+            "unit": "200g pack"
+          },
+          {
+            "id": "prod-002",
+            "name": "Haldiram Aloo Bhujia",
+            "price": 55,
+            "originalPrice": 65,
+            "imageUrl": "https://images.unsplash.com/photo-1566478989037-eec170784d0b?w=400&q=80",
+            "rating": 4.3,
+            "tag": "Trending",
+            "unit": "400g pack"
+          },
+          {
+            "id": "prod-003",
+            "name": "Parle-G Gold Biscuits",
+            "price": 30,
+            "imageUrl": "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?w=400&q=80",
+            "rating": 4.7,
+            "unit": "600g family pack"
+          },
+          {
+            "id": "prod-004",
+            "name": "Amul Butter",
+            "price": 58,
+            "originalPrice": 62,
+            "imageUrl": "https://images.unsplash.com/photo-1589985270664-771f6512f315?w=400&q=80",
+            "rating": 4.8,
+            "tag": "Fresh",
+            "unit": "100g"
+          }
+        ]
+      }
+    },
+    {
+      "id": "collection-snacks-99",
+      "type": "DYNAMIC_COLLECTION",
+      "data": {
+        "title": "Snacks Under ₹99",
+        "subtitle": "Budget-friendly treats for little ones",
+        "seeAllAction": {
+          "type": "DEEP_LINK",
+          "payload": { "url": "kiddo://collections/snacks-under-99" }
+        },
+        "products": [
+          {
+            "id": "prod-005",
+            "name": "Kurkure Masala Munch",
+            "price": 20,
+            "imageUrl": "https://images.unsplash.com/photo-1613919113640-25732cd5da33?w=400&q=80",
+            "unit": "90g"
+          },
+          {
+            "id": "prod-006",
+            "name": "Lays Classic Salted",
+            "price": 20,
+            "imageUrl": "https://images.unsplash.com/photo-1566478989037-eec170784d0b?w=400&q=80",
+            "unit": "52g"
+          },
+          {
+            "id": "prod-007",
+            "name": "Nestle Maggi Noodles",
+            "price": 14,
+            "imageUrl": "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?w=400&q=80",
+            "tag": "Quick",
+            "unit": "70g"
+          },
+          {
+            "id": "prod-008",
+            "name": "Yippee Tricolor Pasta",
+            "price": 28,
+            "originalPrice": 35,
+            "imageUrl": "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=400&q=80",
+            "unit": "260g"
+          },
+          {
+            "id": "prod-009",
+            "name": "Haldiram Soan Papdi",
+            "price": 85,
+            "originalPrice": 99,
+            "imageUrl": "https://images.unsplash.com/photo-1606312619070-d48d4ecc0207?w=400&q=80",
+            "unit": "500g box"
+          },
+          {
+            "id": "prod-010",
+            "name": "MTR Poha Mix",
+            "price": 45,
+            "imageUrl": "https://images.unsplash.com/photo-1585937421612-70a008296f36?w=400&q=80",
+            "unit": "200g"
+          }
+        ]
+      }
+    },
+    {
+      "id": "collection-lunchboxes",
+      "type": "DYNAMIC_COLLECTION",
+      "data": {
+        "title": "Lunchboxes & Bags",
+        "subtitle": "Back to school essentials",
+        "seeAllAction": {
+          "type": "DEEP_LINK",
+          "payload": { "url": "kiddo://collections/lunchboxes-bags" }
+        },
+        "products": [
+          {
+            "id": "prod-011",
+            "name": "Milton Thermosteel Lunchbox",
+            "price": 599,
+            "originalPrice": 799,
+            "imageUrl": "https://images.unsplash.com/photo-1612815154858-60aa4aa4d4c4?w=400&q=80",
+            "tag": "School",
+            "unit": "3-tier"
+          },
+          {
+            "id": "prod-012",
+            "name": "Disney Mickey School Bag",
+            "price": 899,
+            "originalPrice": 1299,
+            "imageUrl": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=400&q=80",
+            "tag": "Popular",
+            "unit": "18L"
+          },
+          {
+            "id": "prod-013",
+            "name": "Cello Puro Steel Bottle",
+            "price": 349,
+            "originalPrice": 449,
+            "imageUrl": "https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=400&q=80",
+            "unit": "750ml"
+          },
+          {
+            "id": "prod-014",
+            "name": "Tupperware Junior Lunch Set",
+            "price": 749,
+            "originalPrice": 999,
+            "imageUrl": "https://images.unsplash.com/photo-1612815154858-60aa4aa4d4c4?w=400&q=80",
+            "unit": "4 pcs"
+          },
+          {
+            "id": "prod-015",
+            "name": "Wildcraft Ace Backpack",
+            "price": 1199,
+            "originalPrice": 1599,
+            "imageUrl": "https://images.unsplash.com/photo-1622560480654-d96214fdc887?w=400&q=80",
+            "tag": "Premium",
+            "unit": "22L"
+          }
+        ]
+      }
+    },
+    {
+      "id": "grid-school-essentials",
+      "type": "PRODUCT_GRID_2X2",
+      "data": {
+        "title": "School Essentials",
+        "subtitle": "Stationery & study must-haves",
+        "seeAllAction": {
+          "type": "DEEP_LINK",
+          "payload": { "url": "kiddo://collections/school-essentials" }
+        },
+        "products": [
+          {
+            "id": "prod-016",
+            "name": "Faber-Castell Colour Pencils",
+            "price": 199,
+            "originalPrice": 249,
+            "imageUrl": "https://images.unsplash.com/photo-1513545887817-7a7d2822864f?w=400&q=80",
+            "unit": "24 shades"
+          },
+          {
+            "id": "prod-017",
+            "name": "Camel Geometry Box",
+            "price": 149,
+            "imageUrl": "https://images.unsplash.com/photo-1583484963886-cce2f023b966?w=400&q=80",
+            "unit": "Metal"
+          },
+          {
+            "id": "prod-018",
+            "name": "Classmate Notebook Pack",
+            "price": 120,
+            "originalPrice": 150,
+            "imageUrl": "https://images.unsplash.com/photo-1531346878377-a5be208d0d7a?w=400&q=80",
+            "unit": "6 notebooks"
+          },
+          {
+            "id": "prod-019",
+            "name": "DOMS Sketch Pens Set",
+            "price": 89,
+            "imageUrl": "https://images.unsplash.com/photo-1513545887817-7a7d2822864f?w=400&q=80",
+            "unit": "12 colors"
+          }
+        ]
+      }
+    },
+    {
+      "id": "collection-trending-toys",
+      "type": "DYNAMIC_COLLECTION",
+      "data": {
+        "title": "Trending Toys",
+        "subtitle": "Playtime favorites flying off shelves",
+        "seeAllAction": {
+          "type": "DEEP_LINK",
+          "payload": { "url": "kiddo://collections/trending-toys" }
+        },
+        "products": [
+          {
+            "id": "prod-020",
+            "name": "Hot Wheels 5-Car Pack",
+            "price": 499,
+            "originalPrice": 649,
+            "imageUrl": "https://images.unsplash.com/photo-1558060370-d644479cb6f7?w=400&q=80",
+            "tag": "Hot",
+            "unit": "5 cars"
+          },
+          {
+            "id": "prod-021",
+            "name": "Lego Classic Creative Box",
+            "price": 1499,
+            "originalPrice": 1999,
+            "imageUrl": "https://images.unsplash.com/photo-1587654780291-39c9404d746b?w=400&q=80",
+            "tag": "Creative",
+            "unit": "484 pcs"
+          },
+          {
+            "id": "prod-022",
+            "name": "Barbie Fashionista Doll",
+            "price": 799,
+            "originalPrice": 999,
+            "imageUrl": "https://images.unsplash.com/photo-1596461404960-3cedaace484a?w=400&q=80",
+            "unit": "1 doll"
+          },
+          {
+            "id": "prod-023",
+            "name": "Nerf Elite Disruptor",
+            "price": 1299,
+            "originalPrice": 1599,
+            "imageUrl": "https://images.unsplash.com/photo-1515488042361-ee00e3ddd4e4?w=400&q=80",
+            "tag": "Action",
+            "unit": "6 darts"
+          },
+          {
+            "id": "prod-024",
+            "name": "Rubik's Cube 3x3",
+            "price": 299,
+            "originalPrice": 399,
+            "imageUrl": "https://images.unsplash.com/photo-1577082163292-2f0e2281e3cd?w=400&q=80",
+            "unit": "Classic"
+          }
+        ]
+      }
+    },
+    {
+      "id": "collection-recommended",
+      "type": "DYNAMIC_COLLECTION",
+      "data": {
+        "title": "Recommended For You",
+        "subtitle": "Based on your browsing history",
+        "seeAllAction": {
+          "type": "DEEP_LINK",
+          "payload": { "url": "kiddo://collections/recommended" }
+        },
+        "products": [
+          {
+            "id": "prod-025",
+            "name": "Nutella Hazelnut Spread",
+            "price": 349,
+            "originalPrice": 399,
+            "imageUrl": "https://images.unsplash.com/photo-1599599810769-313882c4a5a5?w=400&q=80",
+            "unit": "350g"
+          },
+          {
+            "id": "prod-026",
+            "name": "Cadbury Dairy Milk Silk",
+            "price": 85,
+            "imageUrl": "https://images.unsplash.com/photo-1549007953-2f2c4b2c4b4b?w=400&q=80",
+            "tag": "Treat",
+            "unit": "60g"
+          },
+          {
+            "id": "prod-027",
+            "name": "Skippy Peanut Butter",
+            "price": 425,
+            "originalPrice": 499,
+            "imageUrl": "https://images.unsplash.com/photo-1471194400239-7082660bef0e?w=400&q=80",
+            "unit": "462g"
+          },
+          {
+            "id": "prod-028",
+            "name": "Britannia Fudge Cake",
+            "price": 35,
+            "imageUrl": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400&q=80",
+            "unit": "120g"
+          }
+        ]
+      }
+    },
+    {
+      "id": "unsupported-v2",
+      "type": "NEW_COMPONENT_V2",
+      "data": {
+        "title": "Future Feature",
+        "description": "This block should be gracefully skipped"
+      }
+    },
+    {
+      "id": "overlay-config",
+      "type": "FULL_SCREEN_OVERLAY",
+      "data": {
+        "lottieAsset": "school",
+        "opacity": 0.35
+      }
+    }
+  ]
+}
